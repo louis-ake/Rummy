@@ -11,5 +11,5 @@ public:
 
 	string discardPile[];
 
-	Cards() {};
+	// Cards() {};
 };
