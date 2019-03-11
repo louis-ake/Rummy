@@ -8,7 +8,9 @@ public:
 	string name;
 	array<string, 7> hand;
 
-	void createPlayers() {
+	Player() {}
 
+	Player(string n) {
+		name = n;
 	}
 };
