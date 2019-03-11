@@ -12,5 +12,5 @@ public:
 
 	vector<string> discardPile;
 
-	Cards() {};
+	// Cards() {};
 };
