@@ -1,12 +1,12 @@
 #include <string>
-#include <array>
+#include <vector>
 
 using namespace std;
 
 class Player {
 public:
 	string name;
-	array<string, 7> hand;
+	vector<string> hand;
 
 	Player() {}
 

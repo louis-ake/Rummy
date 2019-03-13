@@ -12,5 +12,18 @@ public:
 
 	vector<string> discardPile;
 
-	// Cards() {};
+	Cards() {};
+
+	/*
+	void deal() {
+		srand(time(NULL));
+		for (int i = 0; i < 14; i++) {
+			int random = rand % deck.size();
+			string card;
+			if (i % 2 != 0) {
+
+			}
+		}
+	}
+	*/
 };
